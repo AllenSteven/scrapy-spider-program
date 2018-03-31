@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>笑话网</title>
+	<link rel="stylesheet" type="text/css" href="/Public/pc/css/common.css">
+	<link rel="stylesheet" href="/Public/pc/css/header.css">
+	<link rel="stylesheet" type="text/css" href="/Public/pc/css/index.css">
+	<link rel="stylesheet" href="/Public/pc/css/right.css">
+	<link rel="stylesheet" href="/Public/pc/video-js/video-js.css">
+	<link rel="stylesheet" href="/Public/pc/css/video-js.min.css">
+	<script type="text/javascript" src="/Public/pc/js/jquery-1.11.0.js"></script>
+	<script src="/Public/pc/video-js/video.min.js"></script>
+	<!-- 如果是低于IE9的浏览器 -->
+    <!--[if lt IE 9]>
+		<script src="/Public/pc/js/html5shiv.js"></script>
+    	<script src="/Public/pc/js/json2.js"></script>
+		<script src="/Public/pc/js/es5-shim.min.js"></script>
+		<script src="/Public/pc/js/es5-sham.min.js"></script>
+    <![endif]-->
+
+	<!-- <script type="text/javascript">
+			(function(){
+				videojs.options.flash.swf = "js/video-js.swf";
+			})();
+    </script> -->
+	<style type="text/css">
+      .vjs-default-skin .vjs-big-play-button{
+		  width: 67px !important;
+		  height: 67px !important;
+		  border-radius: 50% !important;
+		  border: 0.1em solid #C1C1C1 !important;
+      }
+	  .vjs-default-skin .vjs-big-play-button:before{
+		  line-height: 2.3em !important;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+    <div class="grid clearfix">
+        <div class="header-left"><a href="#"></a></div>
+        <div class="header-nav">
+            <ul class="clearfix">
+                <li ><a href="/index/index/type/0.html">热门</a></li>
+                <li class="active"><a href="/index/index/type/1.html">段子</a></li>
+                <li ><a href="/index/index/type/2.html">视频</a></li>
+                <li ><a href="/index/index/type/3.html">图片</a></li>
+                <li ><a href="/article/index.html">文章</a></li>
+            </ul>
+        </div>
+<!--        <div class="header-right range clearfix">
+            <em class="delive">投稿</em>
+                            <p class="logs">登录</p>        </div>  -->
+    </div>
+</div><!-- end header -->
+<script>
+    $(".logout").click(function () {
+        var url = "/login/logout.html";
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url:url,
+            data:{},
+            success: function(data) {
+                //window.location.reload();
+                window.location.href="Index/index";
+            }
+        },'json');
+    })
+</script>
+
+
+
+
+		<div class="content">
+			<div class="grid clearfix">
+				<div class="content-right">
+					<div class="main-right">
+    <div class="cont-topr clearfix">
+        <div class="cont-topr-right">
+            <em>马桶段子APP</em>
+            <span>iPhone和Android平台最受欢 迎的原创笑话社区，专治高冷笑 点深！</span>
+        </div>
+        <div class="cont-topr-left"><img src="/Public/dz/images/icos.png" alt=""></div>
+    </div><!-- end cont-topr -->
+    <div class="cont-er clearfix">
+        <div class="cont-er-right"><img src="/Public/dz/images/er.png" alt=""></div>
+        <div class="cont-er-left">
+            <i></i>
+            <span>25678份评分</span>
+        </div>
+    </div><!-- end cont-er -->
+    <div class="cont-load clearfix">
+        <a href="https://itunes.apple.com/us/app/ma-tong-duan-zi/id1140412327?l=zh&ls=1&mt=8">iOS下载</a>
+        <a href="http://duanzi.xiaohua.com/down/duanzi.apk">Android下载</a>
+    </div><!-- end cont-load -->
+</div>
+<div class="hot-article">
+    <div class="hots clearfix"><span>热门文章</span><a href="/article/index.html"><em>更多>></em></a></div>
+    <div class="hots-con">
+        <ul>
+            <li class="clearfix">
+                    <a href="/article/detail/id/482.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/596c570b0d9f7.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：真是音乐细胞发达的环卫工啊</em>
+                            <i>17-07-17 14:20:21</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/481.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/596c54d6d81f3.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：哥们，你也是时代的潮流</em>
+                            <i>17-07-17 14:10:59</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/480.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/596864db0dae0.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：现在就不是个可以骑自行车的季节啊</em>
+                            <i>17-07-14 14:30:10</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/479.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/5968631018586.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：真是敬业的守卫啊，大哥</em>
+                            <i>17-07-14 14:22:35</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/478.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/59671309e3ad2.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：正在潜水的司机大叔啊</em>
+                            <i>17-07-13 14:28:46</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/477.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/596711274a37e.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：在街上也能随意看到怪兽啊</em>
+                            <i>17-07-13 14:20:49</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/476.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/5965c10b7f811.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：你的车子已经打包好了</em>
+                            <i>17-07-12 14:27:03</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/475.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/5965bf4cbb7c4.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：这个肯定是玛丽莲梦露的粉丝啊</em>
+                            <i>17-07-12 14:19:15</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/474.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/5964702818c54.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：哥们，睡着还能抽烟真是神技能啊</em>
+                            <i>17-07-11 14:29:20</i>
+                        </div>
+                    </a>
+                </li><li class="clearfix">
+                    <a href="/article/detail/id/473.html">
+                        <p><img class="lazy" data-original="http://img.news.mtdz.xiaohua.com/Carousel/59646e4cf1d65.jpg" alt=""></p>
+                        <div class="detail">
+                            <em>马桶段子：跟着黑人学跳舞就是不一样</em>
+                            <i>17-07-11 14:21:35</i>
+                        </div>
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div><!-- end hot-article -->
+</div><!-- end content-right -->
+
+				<div class="content-left">
+										<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104746/type/1.html">
+								女友哭着说：“同事都笑话我长得矮，不想上班了。”我摸摸她的头：“别难过，天塌下来有我顶着。”还没反应过来，她就给了我一巴掌：“麻痹连你也嘲笑我！ ”							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104746">26</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104746">6</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104746">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160829/ccdccf60-a177-bb58-bee1-1f62c6297857.jpg" alt="">
+									</em>
+									<i>星期曰我没空 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104756/type/1.html">
+								我发现男人和女人吵架，只要男人的声音一抬高，这个时候吵架的原因已经不重要了，因为后面的过程就变成了：“你居然敢吼我，你再吼我一句试试？”							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104756">37</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104756">12</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104756">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160826/7f0987f6-4b73-bd03-6a26-0034657caed4.jpg" alt="">
+									</em>
+									<i>大飞小晶 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104757/type/1.html">
+								反正闲着也是闲着，我央求老公陪我玩连拖拉机游戏，获胜的一方打失败者一拳。老公勉强答应了。前三次都是他赢，始终是男人，打在身上像铁锤一样疼。第四次我侥幸赢了回来，NND我特么才轻轻一拳下去，只听他咔嚓一声							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104757">33</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104757">6</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104757">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104758/type/1.html">
+								高三喜欢吃泡椒鸡爪。有一次上课偷吃，被老师叫起来回答问题，就是被辣着抽抽......“嘶，嘶.....老师.....这.....这道题......”老师：咋地？这道题烫嘴啊？							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104758">43</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104758">5</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104758">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>2</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160826/b379949a-e494-bac4-a922-61fa21b1b9a3.jpg" alt="">
+									</em>
+									<i>老六94433851 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104759/type/1.html">
+								很久以前，村里的老人给男孩子起名有个讲究，就是按丁丁大小来决定，小的叫棍儿，大一点叫棒子，又大又粗的叫柱子！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104759">34</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104759">11</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104759">2</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104760/type/1.html">
+								公司招了一个实习生，老板不在就玩游戏，老板在的时候就各种表现很乖巧的样子。作为老员工就跟她说:“你应该做到老板在不在都一个样 ”。然后她当着老板面玩了一天游戏，后来才知道她是老板的女儿……							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104760">35</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104760">5</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104760">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104761/type/1.html">
+								小鲜肉有多敬业你根本不懂，人家手破了还坚持演戏呢！去看医生大夫都吓坏了说：幸好送来的及时，要是稍微晚一点儿，伤口就愈合啦！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104761">35</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104761">8</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104761">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160826/cd22ad02-1c7f-c527-3d43-2978fa2b9464.jpg" alt="">
+									</em>
+									<i>名字起的太长不太好吧 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104762/type/1.html">
+								老汉弥留之际，老伴泪流不止：“老头子，我对不起你，其实那年嫁给你我就已经有孕在身了，这么多年你对咱儿子视若己出，瞒你这么多年我对不起你啊！”老汉甩了甩手：“谢谢你对我说，其实在你之前我有过一段感情，知道自己不育...”							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104762">37</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104762">12</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104762">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160829/bf5c4561-b3ca-4f1f-ffd0-71b6873ad920.jpg" alt="">
+									</em>
+									<i>三木子雨 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104763/type/1.html">
+								做我男朋友吧你可以天天出去骚出去浪可以和别的女人亲嘴滚床单只要你累了打个电话给我我就会把你拖回家一刀捅死你狗日的。							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104763">41</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104763">8</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104763">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104764/type/1.html">
+								昨天宿舍阳台飞来一只喜鹊，有一二货室友开心滴说，喜鹊飞咱宿舍了，咱宿舍要有喜事啊！然后今天这货女朋友就告诉丫她怀孕了！现在这货正在，挠头，抽烟，叹气，打电话！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104764">37</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104764">5</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104764">1</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>1</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160826/05f4cc3c-7f49-acd7-862d-cd7de5c9c9b8.jpg" alt="">
+									</em>
+									<i>Michael哥102667599 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104765/type/1.html">
+								药店门口摆着一台秤，我路过的时候站上去称一下体重。这时药店的店员妹子出来问我：“您好，今天有活动哦！”我对她说：“不了，我就称称，不进去。”							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104765">28</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104765">13</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104765">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104775/type/1.html">
+								昨晚洗脸时，发现化妆棉不见了。 我大喊“妈，我新买的化妆棉咋没了？” 没等老妈接话，老爸却尴尬的说“咳咳，昨天我上完厕所发现没纸了，就把那盒子棉花纸给用了……”							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104775">30</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104775">8</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104775">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104776/type/1.html">
+								去年夏天，室友养了只卷毛狗不知道啥品种，天气太热，狗就伸舌头。 我想起了风油精的功效，就拿出一瓶，给狗伸出来的舌头滴了几滴…… 然后，狗疯了似的追咬我，还好只咬掉了内裤……							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104776">32</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104776">10</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104776">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>1</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104777/type/1.html">
+								老友开车送我回家，因喝了酒就车上眯了会。半途总觉得车子颠簸的厉害，刚想问朋友怎么回事，他却反问我：我睡了多久！！！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104777">40</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104777">8</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104777">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>1</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104778/type/1.html">
+								看见对面楼里的住户把一个人搬到衣柜里，随手把柜子锁上了，我就第一报了警，然后警察叔叔就在对面柜子里翻出了一个充气娃娃……							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104778">31</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104778">11</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104778">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104779/type/1.html">
+								晚上问老婆：我如果不举了你还会和我在一起吗？ 老婆：没事，你还有手哪。 我：手也没了那？ 老婆：那还有舌头哪。 我：舌头也没了那？ 老婆：你不反对婚外情吧？ 卧槽！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104779">33</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104779">11</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104779">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104780/type/1.html">
+								去朋友家做客，朋友两个孩子一男一女，我去到的时候女儿在那哭，我问她怎么了，她说粑粑拉裤子了，然后问她为什么不去厕所，她说要是去厕所烤翅就被哥哥吃完了，我.....							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104780">24</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104780">11</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104780">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104781/type/1.html">
+								一同学，男的，他的手机铃声是婴儿的哭声，一天他便秘，在厕所，他痛不欲生，然后他大吼一声“啊 ！！！！”刚吼完，这哥们手机铃声响了……然后他就在全校出名了。							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104781">50</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104781">13</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104781">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>0</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="http://api.mtdz.xiaohua.com/upload/images/20160826/e36e3b92-170f-40fc-b4cd-aa0a6316681e.jpg" alt="">
+									</em>
+									<i>qzuser11389002 </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104782/type/1.html">
+								去理发店剪头发，看段子久了得经验，怕被坑。遂进门就问价：“美女，你们这洗剪吹多少钱？”妹纸上下打量了我一下：“我们这洗剪30,吹300。”……卧槽，这店吹风镶钻的？幸亏机智如我！							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104782">33</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104782">11</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104782">3</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>1</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="one-cont">
+						<div class="center">
+							<div class="one-cont-title clearfix">
+								<div class="one-cont-time"><span></span></div>
+								<div class="one-cont-font clearfix">
+									<em>
+										<img  class="lazy" data-original="/Public/dz/images/portrait.png" alt="">
+									</em>
+									<i>哼着小调啦啦~ </i>
+								</div>
+							</div><!-- end one-cont-title -->
+							<p class="fonts" ><a href="/index/pinlun/id/104783/type/1.html">
+								今天上班，办公室里一哥们儿小冯说：我要在市区有块地就发了。另一妹子说：你要有块地我认你做干爹！这时候门口有人喊：小冯有你快递。							</a>
+							</p>
+							
+
+							
+
+
+												<div class="discuss clearfix">
+							<div class="discuss-left">
+								<ul class="clearfix number">
+									<li class="range">
+										<i></i>
+										<span sid="104783">30</span>
+
+									</li>
+									<li class="range">
+
+										<i></i>
+										<span sid="104783">15</span>
+
+									</li>
+									<!--<li class="xing">
+
+										<i></i>
+										<span>100</span>
+
+									</li> -->
+									<li class="range">
+										<i></i>
+										<span sid="104783">0</span>
+									</li>
+									<li></li>
+									<li class="range shares">
+
+										<i></i>
+										<span>1</span>
+										<div class="fen">
+											<div class="bdsharebuttonbox fen-cont" data-tag="share_1">
+												<a class="bds_weixin weixin" data-cmd="weixin"></a>
+												<a class="bds_qzone qzone" data-cmd="qzone" href="#"></a>
+												<a class="bds_tsina sina" data-cmd="tsina"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end discuss  -->
+					</div>
+				</div><!-- end one-cont -->
+									<div class="more">
+						<a href="/index/index/type/1/p/1.html">
+							<span class="" style="cursor:pointer">上一页</span>
+						</a>
+
+					</div>				<div class="more">
+					<a href="/index/index/type/1/p/2.html">
+					<span class="" style="cursor:pointer">下一页</span>
+					</a>
+
+				</div>
+				<input value="1" type="hidden" name="type" class="type"/>
+			</div>
+		</div><!-- end content -->
+       <script src="/Public/test/jquery-1.8.3.js" type="text/javascript"></script>
+<script src="/Public/test/ajaxfileupload.js" type="text/javascript"></script>
+<div class="footer">
+    <div class="grid">
+        <div class="qqs"><em>合作QQ：3174592065</em></div>
+        <div class="copy">
+            <span>Copyright 2005-2017 www.xiaohua.com 版权所有 京ICP备13039142号-1</span>
+        </div>
+    </div>
+</div><!-- end footer-->
+<div class="scroll-top">
+    <div class="scroll-top-er">
+        <em><img src="/Public/pc/images/ers.png" alt=""></em>
+    </div>
+    <div class="scroll-top-arrow f-tac">
+        <a href="#top"><i class="arrow"></i></a>
+    </div>
+</div><!-- end scroll-top -->
+<!--  star 登录 -->
+<!--  star 登录 -->
+<div class="login">
+    <div class="bgs"></div>
+    <div class="deng">
+        <div class="deng-top">
+            <div class="grids log-top clearfix">
+                <span>登录</span>
+                <em class="cancel">取消</em>
+            </div>
+        </div>
+        <div class="grids clearfix">
+            <div class="login-right">
+                <div class="login-ways"><span>其他方式登录</span></div>
+                <div class="san-deng">
+                    <ul class="clearfix">
+                        <li><a href="/login/secondlogin/type/qq.html"><img src="/Public/pc/images/qq.png" alt=""></a></li>
+                        <li><a href="/login/secondlogin/type/sina.html"><img src="/Public/pc/images/weibo.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <p>还没有账号？</p>
+                <div class="enroll">注册</div>
+            </div>
+            <div class="login-left">
+                <div class="fns clearfix">
+                    <em>账   号:</em>
+                    <div class="names">
+                        &nbsp;<input type="text" class="tex num" name="fname" placeholder="请输入手机号"/><br/>
+                        <i class="name_txt"></i>
+                    </div>
+                </div>
+                <div class="lns clearfix">
+                    <em>密   码:</em>
+                    <div class="names">
+                        &nbsp;<input type="password"  class="pwd password" name="lname" placeholder="请输入密码"/><br/>
+                        <i class="pwd_txt"></i>
+                    </div>
+                </div>
+                <div class="chk clearfix">
+                    <span><input name="checkbox" type="checkbox" value="" />马桶君记住我</span>
+                    <i>忘记密码</i>
+                </div>
+                <input name="" id="tj_but" class="login-btn" type="button" value="登录" />
+            </div>
+        </div>
+    </div><!-- end deng -->
+</div>
+<!-- star 投稿 -->
+<div class="toug">
+    <div class="bgs"></div>
+    <div class="upload">
+        <div class="upload-top">
+            <div class="grids1 log-top clearfix">
+                <span>投稿</span>
+                <em class="tou-qu">取消</em>
+            </div>
+        </div><!-- end upload-top -->
+        <div class="upload-main">
+            <input type="hidden" name="type" value="1">
+            <ul class="btn" >
+                <li class="active" data-type="1">段子</li>
+                <li data-type="2">图片</li>
+                <li data-type="3">视频</li>
+            </ul>
+
+            <div class="upload-con">
+                <div class="con-item  active">
+                    <div class="boxs">
+                        <div class="boxs-cont">
+                            <textarea id="texts" name="content" class="textr" placeholder="搞笑，我们最专业。马上分享搞笑内容到笑话网，下载app可以观看更多［你懂的］内容！" ></textarea>
+                            <i>300字</i>
+                        </div>
+                    </div><!-- end boxs -->
+                    <div class="photo">
+                        <div class="photo-cont"></div>
+                        <div class="photo-cont">
+                            <div class="upload-wrap  tops clearfix" style="display: none">
+                                <div class="upload-pick"></div>
+                                <div class="upload-input-wrap">
+                                    <input type="file" id="id_photos" name="id_photos" value="上传"  />
+                                    <label for="id_photos"></label>
+                                </div>
+                            </div>
+                            <div class="erron" style="display: none"></div>
+                            <div class="dels clearfix">
+                                <i class="id_photos"><img src="/Public/pc/images/icos.png" alt=""></i>
+                                <p class="dels-right">
+                                    <span></span>
+                                    <em>删除</em>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--<div class="photo-cont">
+                            <div class="vides clearfix">
+                                <span></span>
+                                <input type="file" id="id_videos" name="id_videos" value="上传" style="filter:alpha(opacity=10);-moz-opacity:10;opacity:10;" />
+                                <div class="id_videos" >
+                                </div>
+                                <em>上传视频</em>
+                            </div>
+                            <div class="dels clearfix">
+                                <i><img src="/Public/pc/images/icos.png" alt=""></i>
+                                <p class="dels-right">
+                                    <span></span>
+                                    <em>删除</em>
+                                </p>
+                            </div>
+                        </div>-->
+                    </div>
+
+                    <div class="interpret">
+                        <input type="submit" class="sub_jokes"  id="subok" value="发表"/>
+                    </div>
+                </div><!-- end con-item -->
+                <!-- end con-item -->
+            </div>
+
+        </div><!-- end upload-main -->
+
+    </div><!-- end upload -->
+</div>
+<!-- end 投稿 -->
+<div class="tanchuang">
+   <div class="loadings">
+        <img src="/Public/pc/images/loadings.gif" alt="">
+       <p>上传中....</p>
+    </div>
+
+</div>
+<!-- start  注册  -->
+<div class="register">
+    <div class="bgs"></div>
+    <div class="reg-main">
+        <div class="register-title clearfix">
+            <span>取消</span>
+            <i>注册账户</i>
+        </div>
+        <div class="register-cont">
+            <div class="cellphone">
+                <i>手　机　号：</i><input type="text" class="nums num" placeholder="请输入手机号">
+                <p class="name_txt"> 请输入手机号</p>
+            </div>
+            <div class="mima">
+                <i>密　　　码：</i>
+                <label>
+                    <input type="password" class="pasd password ma" placeholder="6-15位字母加数字"><em></em>
+                    <input type="text" class="pasd password mi" placeholder="6-15位字母加数字">
+                </label>
+                <p class="pwd_txt">6-15位字母加数字</p>
+            </div>
+            <div class="note">
+                <i>短信验证码：</i>
+                <input type="text" class="code" placeholder="请输入手机收到的验证码">
+                <span class="gain" id="seng_msg">获取验证码</span>
+            </div>
+            <div class="chks">
+                <label><input type="checkbox" name="vehicle" /></label>
+                <i>我已同意《服务协议》</i>
+            </div>
+            <div class="zhuce">
+                <input type="button" id="regs" value="注册">
+            </div>
+
+        </div>
+    </div><!-- end reg-main -->
+</div><!-- end  注册 -->
+
+<!-- srart 设置新密码 -->
+<div class="search-code" >
+    <div class="bgs"></div>
+    <div class="cipher-main">
+        <div class="code-title clearfix">
+            <span class="expit">取消</span>
+            <i>找回密码</i>
+        </div>
+        <div class="new-code mima">
+            <i>新密码：</i>
+            <label>
+                <input type="password" class="pasd password ma" placeholder="6-15位字母加数字" value="" name="new_pwd"><em></em>
+                <input type="text" class="pasd password mi" name="new_pwd" placeholder="6-15位字母加数字" value="">
+            </label>
+            <!-- 	<i class="pwd_txt">对符合</i> -->
+        </div>
+        <div class="affirm"><input type="button" class="que" id="qued"  value="确认修改"></div>
+    </div>
+</div><!-- end 设置新密码 -->
+
+<!--  start 找回密码 -->
+<div class="get-password">
+    <div class="bgs"></div>
+    <div class="get-main">
+        <div class="get-title clearfix">
+            <span>取消</span>
+            <i>找回密码</i>
+        </div>
+        <div class="get-con">
+            <div class="cellphone">
+                <i>手　机　号：</i>
+                <input type="text" class="num nums" id="phone_number" name="phone_number" placeholder="请输入手机号" value="" /><p class="name_txt"></p>
+            </div>
+            <div class="note">
+                <i>短信验证码：</i>
+                <input type="text" name="code" id="code" class="code" placeholder="请输入手机收到的验证码" value="">
+                <span class="gain" data-type="1">获取验证码</span>
+            </div>
+            <div class="affr"><input class="step" type="button" value="下一步"></div>
+        </div>
+    </div>
+</div>
+
+<div class="point success">
+
+</div>
+<div class="point error">
+
+</div>
+
+<div style="display: none">
+    <script src="https://s4.cnzz.com/z_stat.php?id=1260892859&web_id=1260892859 " language="JavaScript"></script>
+</div>
+<script type="text/javascript" src="/Public/pc/js/videos.js"></script>
+<script type="text/javascript" src="/Public/pc/js/index.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //点赞  踩
+        $(".number").each(function(){
+            $(this).children("li.range").click(function(){
+                $this = $(this);
+                if($(this).hasClass("active")){
+                    return;
+                }else{
+                    var type =  $(this).index();
+                    var id = $(this).children("span").attr('sid');
+                    if(type == 2){
+                        $.ajax({
+                            cache: true,
+                            type: "POST",
+                            url:"/user/favourite.html",
+                            dataType: 'json',
+                            data:{id:id},
+                            success: function(data) {
+                                if(data.ret != 200){
+                                    showmsg(false,data.msg);
+                                    return false;
+                                }
+                                $this.addClass("active");
+                                $this.children("span").html(parseInt($this.children("span").html())+1);
+                            },
+                            error: function(data) {
+
+                            }
+
+                        },'json');
+                    }else {
+                        $.ajax({
+                            cache: true,
+                            type: "POST",
+                            url:"/user/zan_status.html",
+                            dataType: 'json',
+                            data:{type:type+1,id:id},
+                            success: function(data) {
+                                if(data.ret != 200){
+                                    showmsg(false,data.msg);
+                                    return false;
+                                }
+                                $this.addClass("active");
+                                $this.children("span").html(parseInt($this.children("span").html())+1);
+                            },
+                            error: function(data) {
+
+                            }
+
+                        },'json');
+                    }
+                }
+
+            });
+        });
+    });
+   /* $('#ssi-upload3').ssi_uploader({url:"http://new.xiaohua.com/User/addjokes",maxFileSize:9,dropZone:false,allowed:['jpg','gif','txt','png','pdf','mp4']});*/
+</script>
+<script type="text/javascript">
+    $(function(){
+        //手机号
+        function userName(namespace){
+            var re_name=/^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/;//11位手机号码
+            var phone = $(".num", namespace).val().trim();//trim  去掉左右空格
+            if(phone){
+                if(re_name.test(phone)){
+                    $(".name_txt", namespace).html("");
+                    return phone;
+                }else{
+                    $(".name_txt", namespace).html("手机号码有误");
+                    $(".name_txt", namespace).css("color","red");
+                    return false;
+                }
+            }else{
+                $(".name_txt", namespace).html("手机号不能为空");
+                $(".name_txt", namespace).css("color","red");
+                return false;
+            }
+        }
+        //密码
+        function userPassword(namespace){
+            var re_pwd=/^([A-Za-z0-9]{6,16})$/;//只能由英文，数字组成
+            console.log($(".password", namespace));
+            var pawd=$(".password", namespace).val().trim();
+            if(pawd){
+                if(re_pwd.test(pawd)){
+                    $(".pwd_txt", namespace).html("");
+                    return pawd;
+                }else{
+                    $(".pwd_txt", namespace).html("密码仅支持6-15位数字、字母");
+                    $(".pwd_txt", namespace).css("color","red");
+                    return false;
+                }
+            }else{
+                $(".pwd_txt", namespace).html("密码不能为空");
+                $(".pwd_txt", namespace).css("color","red");
+                return false;
+            }
+        }
+
+        //验证码
+        function yanZheng(namespace){
+            var verica=/^[0-9]{4}$/;
+            var doe=$(".code", namespace).val().trim();
+            console.log(doe);
+            if(verica.test(doe)){
+                return doe;
+            }
+        }
+
+        //点击手机验证
+
+            $(".gain").click(function () {
+                //先检查手机和密码
+                var namespace = ".register";
+                var the_type = $(this).data('type');
+                if (the_type) {
+                    namespace = ".get-password";
+                    if (userName(namespace)) {
+
+                    } else {
+                        return false;
+                    }
+                } else if (userName(namespace) && userPassword(namespace)) {
+
+                } else {
+                    return false;
+                }
+                var username = userName(namespace);
+
+                //发送验证码
+                $.ajax({
+                    cache: true,
+                    type: "POST",
+                    url: "/login/send_msg.html",
+                    dataType: 'json',
+                    data: {mobile: username, type: the_type},
+                    success: function (data) {
+                        if (data['ret'] != 200) {
+                            showmsg(false, data['data']);
+                            return false;
+                        }
+                        $(".gain").unbind("click");//移除click
+                        var time = 60;
+                        var id = setInterval(function () {
+                            if (time > 0) {
+                                $(".gain", namespace).html(time + "s");
+                                time--;
+                            } else {
+                                $(".gain", namespace).html("获取验证码");
+                                clearInterval(id);
+                            }
+                        }, 1000);
+                    },
+                    error: function (data) {
+                        //setTime(namespace);
+                    }
+                }, 'json');
+               // setTime(namespace);
+            });
+
+
+
+
+
+        //获取焦点 失去焦点
+        function clickFocus(namespace){
+            $(".num", namespace).on("focus",function(){
+                $(this).css("border","1px solid #ffde00");
+            });
+            $(".num", namespace).on("blur",function(){
+                $(this).css("border","1px solid #a3a3a3");
+                userName(namespace);
+            });
+
+            $(".password", namespace).on("focus",function(){
+                $(this).css("border","1px solid #ffde00");
+            });
+            $(".password", namespace).on("blur",function(){
+                $(this).css("border","1px solid #a3a3a3");
+                userPassword(namespace);
+            });
+
+        }
+
+        //密码显示状态
+        function estate(namespace){
+            var on=true;
+            $(".mima", namespace).on("click","em",function(){
+                if(on){
+                    $(this).addClass("active");
+                    $(".mi", namespace).val($(".pasd", namespace).val());
+                    $(".mi", namespace).show();
+                    $(".ma", namespace).hide();
+                    on=false;
+                }else{
+                    $(this).removeClass("active");
+                    $(".mi", namespace).hide();
+                    $(".ma", namespace).show();
+                    on=true;
+                }
+            });
+        }
+        //登录
+        +function(){
+            var namespace = ".login";
+            clickFocus(namespace);
+            $("#tj_but", namespace).on("click",function(){
+                var username = userName(namespace);
+                var password = userPassword(namespace);
+                if(userName(namespace) && userPassword(namespace)){
+                    $.ajax({
+                        cache: true,
+                        type: "POST",
+                        url:"/login/login.html",
+                        dataType: 'json',
+                        data:{username:username,password:password},
+                        success: function(data) {
+                            if(data.ret != 200){
+                                showmsg(false,data.msg);
+                                return false;
+                            }
+                            showmsg(true,"登录成功");
+                            delayer();
+                            setTimeout('delayer()', 5000);
+                        },
+                        error: function(data) {
+
+                        }
+                    },'json');
+                }
+            });
+        }();
+        //注册
+        +function(){
+            var namespace = ".register";
+            clickFocus(namespace);
+            //setTime(namespace);
+            estate(namespace);
+            //注册
+            $("#regs", namespace).on("click",function(){
+                var ch = $("input[type='checkbox']").is(':checked');
+                if(!ch){
+                    showmsg(false,"请同意服务协议")
+                    return false;
+                }
+                var username = userName(namespace);
+                var password = userPassword(namespace);
+                var code     = yanZheng(namespace)
+                if( username && password && code){
+                    $.ajax({
+                        cache: true,
+                        type: "POST",
+                        url:"/login/register.html",
+                        dataType: 'json',
+                        data:{phone:username,password:password,mark:code},
+                        success: function(data) {
+                            if(data.ret != 200){
+                                showmsg(false,data.data[0])
+                                return false;
+                            }
+                            window.location.reload();
+                        },
+                        error: function(data) {
+
+                        }
+                    },'json');
+                }
+            });
+
+        }();
+        //找回密码
+        +function(){
+            var namespace = ".get-password";
+            clickFocus(namespace);
+          //  setTime(namespace);
+            $(".step", namespace).on("click",function(){
+                var name = userName(namespace);
+                var code =  yanZheng(namespace);
+                if( name && code){
+                    $.ajax({
+                        cache: true,
+                        type: "POST",
+                        url:"/index/check_code.html",
+                        dataType:'json',
+                        data:{code:code,name:name},
+                        success: function(data) {
+                            if(data.ret != 200) {
+                                showmsg(false,"验证码错误");
+                                return false;
+                            }else {
+                                $(".search-code").show();
+                                $(".get-password").hide();
+                            }
+
+                        }
+                    },'json');
+                }
+            });
+        }();
+
+        //设置新密码
+        +function(){
+            var namespace = ".search-code";
+            clickFocus(namespace);
+            estate(namespace);
+            $(".que").on("click",function(){
+                if(userPassword(namespace)){
+                    $(".xiu").show();
+                }
+            });
+
+        }();
+        //消息提示
+        function showmsg(ret,text,url){
+            if(ret == true){
+                var msg='<p><img src="/Public/pc/images/dui.png" alt=""></p>';
+                msg+=' <span>'+text+'</span></div>";';
+                $(".success").html(msg);
+                $(".success").show().delay(2000).hide(300);
+                if(url){
+                    delayer(url);
+                    setTimeout('delayer()', 5000);
+                }
+            }else{
+                var msg='<p><img src="/Public/pc/images/fail.png" alt=""></p>';
+                msg+=' <span>'+text+'</span></div>";';
+                $(".error").html(msg);
+                $(".error").show().delay(2000).hide(300);
+
+            }
+        }
+        //页面跳转
+        function delayer(url){
+            if(url){
+                window.location = url;
+            }else {
+                window.location.reload();
+            }
+
+        }
+    });
+    window.onload=function(){
+        $(".vjs-poster").css("height","264px");
+    };
+    //加载数据
+    $('.ajaxadd').on('click',function(){
+        var value = $('.type').val();
+        var url   = "/index/more.html";
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url:url,
+            data:{type:value},
+            success: function(data) {
+                $('.more').remove();
+                $('.content-left').append($(data));
+                inbind();
+            }
+        },'json');
+    });
+    /**
+     * 加载更多
+     * */
+    function inbind(){
+        $('.ajaxadd').unbind("click");
+        $('.ajaxadd').on('click',function(){
+            var value = $('.type').val();
+            var url   = "/index/more.html";
+            $.ajax({
+                cache: true,
+                type: "POST",
+                url:url,
+                data:{type:value},
+                success: function(data) {
+                    $('.more').remove();
+                    $('.content-left').append($(data));
+                    inbind();
+                }
+            },'json');
+        });
+    };
+
+    function showmsg(ret,text,url){
+        if(ret == true){
+            var msg='<p><img src="/Public/pc/images/dui.png" alt=""></p>';
+            msg+=' <span>'+text+'</span></div>";';
+            $(".success").html(msg);
+            $(".success").show().delay(2000).hide(300);
+            if(url){
+                delayer(url);
+                setTimeout('delayer()', 5000);
+            }
+        }else{
+            var msg='<p><img src="/Public/pc/images/fail.png" alt=""></p>';
+            msg+=' <span>'+text+'</span></div>";';
+            $(".error").html(msg);
+            $(".error").show().delay(2000).hide(300);
+
+        }
+    }
+    function delayer(url){
+        if(url){
+            window.location = url;
+        }else {
+            window.location.reload();
+        }
+    }
+    /**
+     *投稿
+     */
+    $(".sub_jokes").click(function(){
+
+        //检查数据
+        //表单提交
+        var type = $(".btn li.active").attr('data-type');
+        var content = $("#texts").val();
+        if(type !=1){
+            //上传图片
+            var url    =$(".id_photos img").attr('value');
+            var extension =$(".id_photos img").attr('date-type');
+            var width  =$(".id_photos img").attr('date-width');
+            var height =$(".id_photos img").attr('date-height');
+            var video_url=$(".id_photos img").attr('date-video');
+        }else {
+            if(content == ''){
+                showmsg(false,"请填写内容");
+                return false;
+            }
+        }
+
+        $.ajax({
+            //cache: true,
+            type: "POST",
+            url:"/user/doedit.html",
+            dataType: "json",
+            data:{img_url:url,type:type,extension:extension,width:width,height:height,video:video_url,content:content},
+            success: function(data) {
+                if(data.ret != 200){
+                    showmsg(false,data['msg']);
+                    return false;
+                }
+                showmsg(true,data.msg,"/index/index.html");
+            },
+            error: function(data) {
+
+            }
+        },'json');
+    })
+    //开始
+    $(".dels-right ").on('click',function () {
+        $(".dels i img").remove();
+        $(".dels").hide();
+        $(".upload-wrap").show();
+    })
+
+
+</script>
+<script type="text/javascript">
+    //照片异步上传
+    $('#id_photos').live('change',function(){
+        //这里要个浮层 不要操作
+        $(".tanchuang").show();
+        $.ajaxFileUpload({
+            url: "/user/addjokes.html",
+            type: 'post',
+            secureuri: false, //一般设置为false
+            fileElementId: 'id_photos', // 上传文件的id、name属性名
+            dataType: "application/json", //返回值类型，一般设置为json、application/json  这里要用大写  不然会取不到返回的数据
+            success: function(data){
+
+                var type = typeof data;
+                if(type =='string'){
+                     data = JSON.parse(data);
+                }
+                if(data.ret == 300){
+                    showmsg(false,data.msg);
+                    $(".tanchuang").hide();
+                    return false;
+                }
+                var url = data.info_data.all_url;
+                //添加其他的参数 宽高
+                $('.id_photos').empty();
+                $(".dels").show();
+                $(".upload-wrap").hide();
+                    $('.dels i').html('<img src="' + url + '" value="' + data.info_data.url + '" date-type="' + data.info_data.type + '"  date-width="' + data.info_data.width + '"  date-height="' + data.info_data.height + '" date-video="' + data.info_data.video + '" style="max-width:100px" >');
+                 $(".tanchuang").hide();
+                //解除锁定
+            },
+            error: function(data, status, e){
+                //解除锁定
+                showmsg(false,e);
+            }
+        });
+
+    });
+    //点击显示隐藏上传图片按钮
+
+    $(".btn li").on('click',function () {
+        var type = $(this).data('type');
+        switch (type){
+            case 1:
+                $(".upload-wrap").hide();
+                break;
+            case 2:
+                //改变图片
+                $(".upload-pick").css("background-image","url(/Public/pc/images/upload.png)")
+                $(".upload-wrap").show();
+                break;
+            case 3:
+                //改变图片
+                $(".upload-pick").css("background-image","url(/Public/pc/images/up-video.png)")
+                $(".upload-wrap").show();
+                break;
+        }
+    })
+</script>
+
+<script type="text/javascript">
+    /*$(".step").on('click',function () {
+        //隐藏当前浮层 弹出下个浮层
+        var code   = $("#code").val();
+        if(!code){
+            showmsg(false,"验证码错误");
+            return false;
+        }
+        $(".get-password").hide();
+        $(".search-code").show();
+    })*/
+    $(".expit").on('click',function () {
+        $(".search-code").hide();
+    })
+
+    $("#qued").on('click',function () {
+        var number = $("#phone_number").val();
+        var code   = $("#code").val();
+        var new_pwd= $("input[name='new_pwd']").val()
+        var re_pwd=/^([A-Za-z0-9]{6,16})$/;//只能由英文，数字组成
+        if(new_pwd){
+            if(re_pwd.test(new_pwd)){
+            }else{
+                showmsg(false,"密码仅支持6-15位数字、字母");
+                return false;
+            }
+        }else{
+            showmsg(false,"请填写新密码");
+            return false;
+        }
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url:"/login/change_pwd.html",
+            dataType: 'json',
+            data:{vcode:code,number:number,new_pwd:new_pwd},
+            success: function(data) {
+                if(data.ret != 200){
+                    showmsg(false,data.msg);
+                    return false;
+                }
+                showmsg(true,data.msg,"/index/index.html");
+            },
+            error: function(data) {
+            }
+        },'json');
+    })
+</script>
+
+		</div>
+		<script src="/Public/pc/js/jquery.lazyload.js"></script>
+		<script>
+			$(function() {
+			$("img.lazy").lazyload({effect: "fadeIn",
+				//placeholder : "/Public/pc/images/17.jpg",
+				threshold: 400
+			});
+				var heights = $(window).height();
+				$("img.lazy").each(function () {
+					if($(this).offset().top<heights){
+						$(this).attr("src",$(this).attr("data-original"));
+					}
+				})
+		});
+		</script>
+
+
+
+
+
+ </div><!-- end main -->
+
+</body>
+</html>
